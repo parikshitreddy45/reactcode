@@ -33,14 +33,14 @@ const ListingDisplay = (props) =>{
                            <div class="row">
                                 <div class="column movie1">
                                    <img src={item.Movie_img1} alt={item.Movie_Title}/>
-                                   <Link to ={'/details:'}>
-                                        <button>BOOK TICKETS</button>
+                                   <Link to ={'/'}>
+                                        <button onClick=''>BOOK TICKETS</button>
                                    </Link>
                                 </div>
                                 <div class="column movie2">
                                 <img src={item.Movie_img2} alt={item.Movie_Title}/>
-                                <Link to ={`'/details:'`}>
-                                        <button>BOOK TICKETS</button>
+                                <Link to ={`''`}>
+                                        <button onClick=''>BOOK TICKETS</button>
                                 </Link>
                                 </div>
                            </div>     
